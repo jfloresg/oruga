@@ -1,0 +1,40 @@
+body {
+  background-color: #00FF00;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px;
+}
+h1 {
+  color: white;
+  background-color: #008000;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-image {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #444;
+  transition: background 0.3s;
+}
+.button:hover {
+  background-color: #3e8e41;
+}
